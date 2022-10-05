@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ideiasFragment">
+
+    <fragment
+        android:id="@+id/ideiasFragment"
+        android:name="com.example.reciclideia.IdeiasFragment"
+        android:label="fragment_ideias"
+        tools:layout="@layout/fragment_ideias" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.reciclideia.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/noticiasFragment"
+        android:name="com.example.reciclideia.NoticiasFragment"
+        android:label="fragment_noticias"
+        tools:layout="@layout/fragment_noticias" />
+    <fragment
+        android:id="@+id/curiosidadesFragment"
+        android:name="com.example.reciclideia.CuriosidadesFragment"
+        android:label="fragment_curiosidades"
+        tools:layout="@layout/fragment_curiosidades" />
+</navigation>

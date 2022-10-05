@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ideiasFragment"
+        android:icon="@drawable/icon_lamp"
+        android:title="Ideias" />
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/icon_chat"
+        android:title="Chat" />
+    <item
+        android:id="@+id/noticiasFragment"
+        android:icon="@drawable/icon_noticias"
+        android:title="Notícias" />
+    <item
+        android:id="@+id/curiosidadesFragment"
+        android:icon="@drawable/icon_curio"
+        android:title="Curiosidades" />
+</menu>

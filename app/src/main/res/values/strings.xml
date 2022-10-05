@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Reciclideia</string>
+    <string name="email">E-mail</string>
+    <string name="usuario">Usuário</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="fazer_login">Fazer login</string>
+    <string name="email_usuario">E-mail ou Usuário</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="entrar">Entrar</string>
+    <string name="logo_do_reciclideia_na_tela_de_login">Logo do Reciclideia na tela de login</string>
+    <string name="icone_de_pessoa">Ícone de pessoa</string>
+    <string name="icone_de_cadeado">Ícone de cadeado</string>
+    <string name="logo_do_reciclideia_tela_de_cadastro">Logo do Reciclideia tela de cadastro</string>
+    <string name="realizar_cadastro">Realizar Cadastro</string>
+    <string name="logo_do_reciclideia">logo do reciclideia</string>
+    <string name="redefinir_senha">Redefinir senha</string>
+    <string name="um_codigo_de_confirmacao">Um código de confirmação será enviado para o seu E-mail.</string>
+    <string name="codigo_de_confirmacao">Código de confirmação</string>
+    <string name="senha_nova">Senha nova</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="concluir">Concluir</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="ideias"> Ideias </string>
+    <string name="chat"> Chat </string>
+    <string name="noticias"> Notícias </string>
+    <string name="tartaruga_de_garrafa_pet">Tartaruga de Garrafa Pet</string>
+    <string name="cofre_com_lata_de_nescau">Cofre com Lata de Nescau</string>
+    <string name="fonte_revista_artesanato">Fonte: Revista Artesanato</string>
+    <string name="fonte_painel_criativo">Fonte: Painel Criativo</string>
+    <string name="image_view_da_lata_de_nescau">Image View da Lata de Nescau</string>
+    <string name="pl_stico">Plástico</string>
+    <string name="vaso_de_flores_com_garrafa">Vaso de Flores com Garrafa</string>
+    <string name="vidro">Vidro</string>
+    <string name="metal">Metal</string>
+    <string name="image_view_de_vaso_de_flores">Image View de Vaso de Flores</string>
+    <string name="image_view_da_tartaruga_pet">Image View da Tartaruga Pet</string>
+    <string name="image_button_da_l_mpada">Image Button da Lâmpada</string>
+    <string name="image_button_de_not_cias">Image Button de Notícias</string>
+    <string name="image_button_de_chat">Image Button de Chat</string>
+    <string name="ou_criar_conta">Ou, criar conta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confira_aqui">Confira aqui o que é reciclável:</string>
+    <string name="image_button_de_configura_o">Image Button de Configuração</string>
+    <string name="logo_do_reciclideia_na_tela_inicial">Logo do Reciclideia na Tela Inicial</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="meu_perfil">Meu perfil</string>
+    <string name="sair">Sair</string>
+    <string name="e_mail">Email</string>
+    <string name="fazer_postagem">Fazer postagem</string>
+    <string name="desativar_conta">Desativar conta</string>
+    <string name="rea_para_mandar_foto_de_perfil">foto de perfil</string>
+    <string name="cone_para_voltar_para_tela_anterior">ícone de voltar</string>
+    <string name="postar">Postar</string>
+    <string name="Email">Email</string>
+    <string name="fonte_imagem_1">Fonte da imagem</string>
+    <string name="fonte_imagem_2">Fonte da imagem dois</string>
+    <string name="fonte_imagem_3">fonte da imagem tres</string>
+
+
+</resources>
