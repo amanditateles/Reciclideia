@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#32D956"
+    android:background="#caf283"
     android:fadingEdge="horizontal|vertical|none"
     tools:context=".MainActivity">
 
@@ -137,7 +137,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:backgroundTint="#32D956"
+        android:backgroundTint="#caf283"
         android:fontFamily="@font/poppins_bold"
         android:stateListAnimator="@null"
         android:text="@string/ou_criar_conta"
@@ -153,7 +153,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:backgroundTint="#32D956"
+        android:backgroundTint="#caf283"
         android:fontFamily="@font/poppins_light"
         android:stateListAnimator="@null"
         android:text="@string/esqueci_minha_senha"
