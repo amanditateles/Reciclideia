@@ -14,11 +14,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
-        android:theme="@style/Theme.ReciclideiaDemo1"
+        android:theme="@style/Theme.Reciclideia"
         tools:targetApi="31">
-        <activity
-            android:name=".AreaPostagem"
-            android:exported="false" />
+
         <activity
             android:name=".TelaDeCuriosidadeVidro"
             android:exported="false" />
@@ -42,7 +40,8 @@
             android:exported="false" />
         <activity
             android:name=".Splash"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
