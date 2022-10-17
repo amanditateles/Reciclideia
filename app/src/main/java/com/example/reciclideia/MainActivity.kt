@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -14,8 +15,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var edtEmail: EditText
     private lateinit var edtSenha: EditText
     private lateinit var btnEntrar: Button
-    private lateinit var btnCriarConta: Button
-    private lateinit var btnEsqueciMinhaSenha: Button
+    private lateinit var textViewOuCriarConta: TextView
+    private lateinit var textViewEsqueciMinhaSenha: TextView
     private lateinit var mAuth: FirebaseAuth
 
 
@@ -26,17 +27,17 @@ class MainActivity : AppCompatActivity() {
         edtEmail = findViewById(R.id.edt_email)
         edtSenha = findViewById(R.id.edt_senha)
         btnEntrar = findViewById(R.id.btn_entrar)
-        btnCriarConta = findViewById(R.id.btnCriarConta)
-        btnEsqueciMinhaSenha = findViewById(R.id.btnEsqueciMinhaSenha)
+        textViewOuCriarConta = findViewById(R.id.textViewOuCriarConta)
+        textViewEsqueciMinhaSenha = findViewById(R.id.textViewEsqueciMinhaSenha)
 
         mAuth = FirebaseAuth.getInstance()
 
-        btnCriarConta.setOnClickListener{
+        textViewOuCriarConta.setOnClickListener{
             val intent = Intent(this,Cadastro::class.java)
             startActivity(intent)
         }
 
-        btnEsqueciMinhaSenha.setOnClickListener{
+        textViewEsqueciMinhaSenha.setOnClickListener{
             val intent = Intent(this,RedefinirSenha::class.java)
             startActivity(intent)
         }
