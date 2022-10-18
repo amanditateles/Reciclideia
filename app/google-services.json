@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "452532479867",
-    "project_id": "reciclideia-dc2f9",
-    "storage_bucket": "reciclideia-dc2f9.appspot.com"
+    "project_number": "659702900083",
+    "project_id": "reciclideia-c1bcf",
+    "storage_bucket": "reciclideia-c1bcf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:452532479867:android:49e65cea615755fc1d3fde",
+        "mobilesdk_app_id": "1:659702900083:android:dda81060fbdee8ebc91106",
         "android_client_info": {
           "package_name": "com.example.reciclideia"
         }
       },
       "oauth_client": [
         {
-          "client_id": "452532479867-uleq9q3geejk0nko3tkbkrrl5fch5cea.apps.googleusercontent.com",
+          "client_id": "659702900083-i17mq6drd7rcf93uuom6uh4jere9khv2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDDS9XE4ael1TawzF7edDIwFmxWqMBbtHI"
+          "current_key": "AIzaSyB4ApeKvtRxX6NljxL5PzmicADuPlPmF2I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "452532479867-uleq9q3geejk0nko3tkbkrrl5fch5cea.apps.googleusercontent.com",
+              "client_id": "659702900083-i17mq6drd7rcf93uuom6uh4jere9khv2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
