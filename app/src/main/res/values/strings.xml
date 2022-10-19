@@ -58,6 +58,7 @@
     <string name="fonte_imagem_2">Fonte da imagem dois</string>
     <string name="fonte_imagem_3">fonte da imagem tres</string>
     <string name="salvar">Salvar</string>
+    <string name="insira_um_e_mail_v_lido_para_que_possamos_lhe_enviar_um_link_para_redefinir_sua_senha">Insira um E-mail válido para que possamos lhe enviar um link para redefinir sua senha.</string>
 
 
 </resources>

@@ -7,8 +7,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-//import com.google.firebase.database.DatabaseReference
-//import com.google.firebase.database.FirebaseDatabase
 
 
 class Cadastro : AppCompatActivity() {
@@ -18,14 +16,13 @@ class Cadastro : AppCompatActivity() {
     private lateinit var edtUsuario: EditText
     private lateinit var edtSenha: EditText
     private lateinit var btnCriarConta: Button
-    private lateinit var Auth: FirebaseAuth
-    //private lateinit var mDbRef: DatabaseReference
+    private lateinit var mAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
 
-        Auth = FirebaseAuth.getInstance()
+        mAuth = FirebaseAuth.getInstance()
         edtNome = findViewById(R.id.edt_nome)
         edtEmail = findViewById(R.id.edt_email)
         edtUsuario = findViewById(R.id.edt_usuario)
@@ -54,7 +51,7 @@ class Cadastro : AppCompatActivity() {
         val senha = edtSenha.text.toString()
 
         //criando um usuário
-        Auth.createUserWithEmailAndPassword(email, senha)
+        mAuth.createUserWithEmailAndPassword(email, senha)
             .addOnCompleteListener(Cadastro()) { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(
@@ -74,13 +71,7 @@ class Cadastro : AppCompatActivity() {
 
     }
 
-    //private fun addUsuarioToDatabase(nome: String, email: String, uid: String){
-        //mDbRef = FirebaseDatabase.getInstance().getReference()
-        //mDbRef.child("usuario").child(uid).setValue(Usuario(nome, email, uid))
-    //}
-
-
     }
 
-//to mudando todas os mAuth para só Auth, se não der certo troca tudo de novo pelo amor
+
 
