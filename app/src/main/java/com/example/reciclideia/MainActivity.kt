@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //oh jesus man
+        setSupportActionBar(findViewById(R.id.toolbar2))
 
         edtEmail = findViewById(R.id.edt_email)
         edtSenha = findViewById(R.id.edt_senha)
