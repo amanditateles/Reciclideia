@@ -7,13 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="cor_verde_background">#32D956</color>
+    <color name="cor_verde_background">#CAF283</color>
 
     <color name="cor_dos_botoes_ao_serem_selecionados">#FF000000</color>
     <color name="cor_dos_botoes">#B3000000</color>
     <color name="cor_dos_titulos_ideias">#26A642</color>
 
-
+    <color name="cor_action_bar">#4D4D4D</color>
 
 
 </resources>

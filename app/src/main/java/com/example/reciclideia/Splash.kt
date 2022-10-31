@@ -10,12 +10,11 @@ class Splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+        supportActionBar?.hide()
 
         startTimer()
     }
-
-
-        fun startTimer(){
+        private fun startTimer(){
         object: CountDownTimer(2000, 1000){
             override fun onTick(millisUntilFinished: Long) {
 
