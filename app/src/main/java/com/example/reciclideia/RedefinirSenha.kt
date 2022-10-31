@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 class RedefinirSenha : AppCompatActivity() {
 
-    private val TAG = "RedefinirSenha"
+    private val tag = "RedefinirSenha"
     private var etEmail: EditText? = null
     private var buttonConcluir: Button? = null
 
@@ -21,6 +21,7 @@ class RedefinirSenha : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_redefinir_senha)
+        supportActionBar?.hide()
 
         inicialise()
     }
@@ -44,11 +45,11 @@ class RedefinirSenha : AppCompatActivity() {
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         val message = "Email Enviado."
-                        Log.d(TAG, message)
+                        Log.d(tag, message)
                         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
                         updateUI()
                     } else {
-                        Log.w(TAG, task.exception!!.message.toString())
+                        Log.w(tag, task.exception!!.message.toString())
                         Toast.makeText(this,
                             "Nenhum usuário encontrado com esse e-mail.",
                             Toast.LENGTH_SHORT).show()

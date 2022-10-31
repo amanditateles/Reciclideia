@@ -21,6 +21,7 @@ class Cadastro : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
+        supportActionBar?.hide()
 
         mAuth = FirebaseAuth.getInstance()
         edtNome = findViewById(R.id.edt_nome)

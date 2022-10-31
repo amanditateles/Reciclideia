@@ -23,8 +23,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //oh jesus man
-        setSupportActionBar(findViewById(R.id.toolbar2))
+        supportActionBar?.hide()
 
         edtEmail = findViewById(R.id.edt_email)
         edtSenha = findViewById(R.id.edt_senha)
@@ -49,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             val email = edtEmail.text.toString()
             val senha = edtSenha.text.toString()
 
-            entrar(email,senha);
+            entrar(email,senha)
         }
 
 
