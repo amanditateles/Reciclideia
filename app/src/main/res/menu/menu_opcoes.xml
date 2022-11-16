@@ -12,4 +12,9 @@
         android:title="@string/sobre_nos"
         app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/item_excluir_conta"
+        android:title="Excluir Conta"
+        app:showAsAction="never"/>
+
 </menu>

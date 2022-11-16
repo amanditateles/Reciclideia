@@ -41,7 +41,7 @@
     <string name="ou_criar_conta">Ou, criar conta</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="confira_aqui">Confira aqui o que é reciclável:</string>
+    <string name="confira_aqui">Confira aqui o que é reciclável com:</string>
     <string name="image_button_de_configura_o">Image Button de Configuração</string>
     <string name="logo_do_reciclideia_na_tela_inicial">Logo do Reciclideia na Tela Inicial</string>
     <string name="usu_rio">Usuário</string>
@@ -59,8 +59,13 @@
     <string name="fonte_imagem_3">fonte da imagem tres</string>
     <string name="salvar">Salvar</string>
     <string name="insira_um_e_mail_v_lido_para_que_possamos_lhe_enviar_um_link_para_redefinir_sua_senha">Insira um E-mail válido para que possamos lhe enviar um link para redefinir sua senha.</string>
-    
+
     <string name="sobre_nos"> Sobre nós</string>
     <string name="configura_es">Configurações</string>
+    <string name="logo_da_tela_de_desativar_conta">Logo da tela de desativar conta</string>
+    <string name="excluir_conta">Excluir Conta</string>
+    <string name="excluir">Excluir</string>
+    <string name="alerta">Tem certeza que deseja continuar? Não será possível reverter a ação.</string>
+    <string name="despedida">Foi um prazer tê-lo aqui no nosso aplicativo. Até logo :)</string>
 
 </resources>
