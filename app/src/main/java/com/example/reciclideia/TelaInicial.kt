@@ -25,17 +25,15 @@ class TelaInicial : AppCompatActivity() {
         navController = navHostFragment.navController
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottonNavigationView)
         setupWithNavController(bottomNavigationView, navController)
-
-}
-
+    }
+  
     private fun replaceFragment(ideiasFragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.frame_layout, ideiasFragment)
         fragmentTransaction.commit()
     }
-
-
+    
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.item_meu_perfil -> {
