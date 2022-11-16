@@ -5,14 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#caf283"
-    android:fadingEdge="horizontal|vertical|none"
-    tools:context=".Cadastro">
+    tools:context=".ExcluirConta">
+
+    <ImageButton
+        android:id="@+id/imageButtonVoltarExcluirConta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundcorner2"
+        android:contentDescription="@string/cone_para_voltar_para_tela_anterior"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_botao_voltar" />
 
     <ImageView
-        android:id="@+id/logoCriarCadastro"
+        android:id="@+id/logoExcluirConta"
         android:layout_width="214dp"
         android:layout_height="214dp"
-        android:contentDescription="@string/logo_do_reciclideia_tela_de_cadastro"
+        android:contentDescription="@string/logo_da_tela_de_desativar_conta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -23,78 +35,62 @@
 
 
     <TextView
-        android:id="@+id/tituloCriarConta"
+        android:id="@+id/tituloExcluirConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/criar_conta"
+        android:text="@string/excluir_conta"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoCriarCadastro" />
+        app:layout_constraintTop_toBottomOf="@+id/logoExcluirConta" />
 
-
-    <EditText
-        android:id="@+id/edt_email"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="52dp"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/edit_round"
-        android:ems="10"
-        android:fontFamily="@font/poppins_light"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:textColorHint="#80000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tituloCriarConta" />
-
-    <EditText
-        android:id="@+id/edt_senha"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_centerHorizontal="true"
+    <TextView
+        android:id="@+id/textViewAlerta"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
         android:layout_marginTop="28dp"
-        android:autofillHints="password"
-        android:background="@drawable/edit_round"
-        android:ems="10"
         android:fontFamily="@font/poppins_light"
-        android:hint="@string/senha"
-        android:inputType="textPassword"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:textColorHint="#80000000"
+        android:text="@string/alerta"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_email" />
+        app:layout_constraintTop_toBottomOf="@+id/tituloExcluirConta" />
+
+
+    <TextView
+        android:id="@+id/textViewAlerta2"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/despedida"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlerta" />
 
     <Button
-        android:id="@+id/btnCriarConta"
+        android:id="@+id/btnExcluir"
         android:layout_width="265dp"
         android:layout_height="55dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="#fff"
         android:fontFamily="@font/poppins_bold"
-        android:text="@string/criar_conta"
+        android:text="@string/excluir"
         android:textAllCaps="false"
         android:textColor="#000"
         android:textSize="18sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_senha" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlerta2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

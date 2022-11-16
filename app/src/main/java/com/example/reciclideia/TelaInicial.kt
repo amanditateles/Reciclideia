@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI.setupWithNavController
@@ -18,6 +19,7 @@ class TelaInicial : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_inicial)
+        replaceFragment(IdeiasFragment())
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.telaInicialContainer) as NavHostFragment
         navController = navHostFragment.navController
@@ -26,11 +28,23 @@ class TelaInicial : AppCompatActivity() {
 
 }
 
+    private fun replaceFragment(ideiasFragment: Fragment) {
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.frame_layout, ideiasFragment)
+        fragmentTransaction.commit()
+    }
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.item_meu_perfil -> {
                 startActivity(Intent(this, Configuracoes::class.java))
-                this.finish()
+                true
+            }
+
+            R.id.item_excluir_conta -> {
+                startActivity(Intent(this, ExcluirConta::class.java))
                 true
             }
 
@@ -43,5 +57,7 @@ class TelaInicial : AppCompatActivity() {
         menuInflater.inflate(R.menu.menu_opcoes,menu)
         return true
     }
+
+
 }
 

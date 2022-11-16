@@ -20,12 +20,26 @@
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/drawable/edit_round_dois.xml" value="0.1" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.107" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.107" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/drawable/roundcorner.xml" value="0.1135" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/drawable/roundcorner2.xml" value="0.1135" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
-        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_configuracoes.xml" value="0.22" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_desativar_conta.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_excluir_conta.xml" value="0.22" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_postar_confeccoes.xml" value="0.25" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_redefinir_senha.xml" value="0.29411764705882354" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_tela_de_curiosidade_metal.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_tela_de_curiosidade_papel.xml" value="0.2" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_tela_de_curiosidade_plastico.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_tela_de_curiosidade_vidro.xml" value="0.22" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/activity_tela_inicial.xml" value="0.25" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/fragment_chat.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/fragment_curiosidades.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/fragment_ideias.xml" value="0.22" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/fragment_noticias.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/lista_de_ideias.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/scroolview_telainicial.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/famil/Downloads/Documentos de Amandita/Reciclideia-APP/Reciclideia/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />

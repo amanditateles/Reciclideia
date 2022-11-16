@@ -3,33 +3,29 @@ package com.example.reciclideia
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageButton
+import com.example.reciclideia.databinding.ActivityConfiguracoesBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class Configuracoes : AppCompatActivity() {
+
+    private lateinit var binding: ActivityConfiguracoesBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_configuracoes)
+        binding = ActivityConfiguracoesBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        supportActionBar?.hide()
 
-        val imageButtonVoltar = findViewById<ImageButton>(R.id.imageButtonVoltar)
-        imageButtonVoltar.setOnClickListener {
-            openActivity()
+        binding.imageButtonVoltar.setOnClickListener{
+            finish()
         }
 
-        val buttonFazerPostagem = findViewById<Button>(R.id.buttonFazerPostagem)
-        buttonFazerPostagem.setOnClickListener {
-            openSecondActivity()
+        binding.textViewSair.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+            val voltarTeladeLogin = Intent(this, MainActivity::class.java)
+            startActivity(voltarTeladeLogin)
+            finish()
         }
-
     }
-        private fun openActivity(){
-            val intent = Intent(this, TelaInicial::class.java)
-            startActivity(intent)
-        }
-
-        private fun openSecondActivity(){
-        val intent = Intent(this, PostarConfeccoes::class.java)
-        startActivity(intent)
-    }
-
 }
+
