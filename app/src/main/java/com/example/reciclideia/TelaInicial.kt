@@ -48,7 +48,6 @@ class TelaInicial : AppCompatActivity() {
 
             else -> super.onOptionsItemSelected(item)
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

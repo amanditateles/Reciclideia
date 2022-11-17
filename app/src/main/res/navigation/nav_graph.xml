@@ -11,11 +11,6 @@
         android:label="fragment_ideias"
         tools:layout="@layout/fragment_ideias" />
     <fragment
-        android:id="@+id/chatFragment"
-        android:name="com.example.reciclideia.ChatFragment"
-        android:label="fragment_chat"
-        tools:layout="@layout/fragment_chat" />
-    <fragment
         android:id="@+id/noticiasFragment"
         android:name="com.example.reciclideia.NoticiasFragment"
         android:label="fragment_noticias"
