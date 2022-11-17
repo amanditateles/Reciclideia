@@ -88,17 +88,27 @@ class IdeiasFragment : Fragment() {
             R.drawable.tartaruga_pet_1,
             R.drawable.cofrinho_de_lata_de_nescau_2,
             R.drawable.vaso_de_flores_utilizando_garrafa_de_vidro_2,
+            R.drawable.cofrinho_latadeleite,
+            R.drawable.porcos_copos,
+            R.drawable.xicara_copinho,
+
         )
 
         cabecalho = arrayOf(
-            getString(R.string.tartaruga_de_garrafa_pet),
-            getString(R.string.cofre_com_lata_de_nescau),
-            getString(R.string.vaso_de_flores_com_garrafa),
+            getString(R.string.titulo_a),
+            getString(R.string.titulo_b),
+            getString(R.string.titulo_c),
+            getString(R.string.titulo_d),
+            getString(R.string.titulo_e),
+            getString(R.string.titulo_f),
+
         )
 
         ideias = arrayOf(
             getString(R.string.fonte_imagem_1),
             getString(R.string.fonte_imagem_2),
+            getString(R.string.fonte_imagem_3),
+            getString(R.string.fonte_imagem_3),
             getString(R.string.fonte_imagem_3),
         )
 
