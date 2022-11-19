@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -75,8 +76,18 @@ class IdeiasFragment : Fragment() {
         recyclerView = view.findViewById(R.id.recycler_view)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
+
+
         adapter = MeuAdapter(ideiasArrayList)
         recyclerView.adapter = adapter
+        adapter.setOnItemClickListener(object : MeuAdapter.onItemClickListener{
+            override fun onItemClick(position: Int) {
+
+                Toast.makeText(context, "You clicked on item no. $position",Toast.LENGTH_SHORT).show()
+            }
+
+
+        })
     }
 
     private fun dataInitialize(){
@@ -88,17 +99,27 @@ class IdeiasFragment : Fragment() {
             R.drawable.tartaruga_pet_1,
             R.drawable.cofrinho_de_lata_de_nescau_2,
             R.drawable.vaso_de_flores_utilizando_garrafa_de_vidro_2,
-        )
+            R.drawable.cofrinho_latadeleite,
+            R.drawable.porcos_copos,
+            R.drawable.xicara_copinho,
+
+            )
 
         cabecalho = arrayOf(
-            getString(R.string.tartaruga_de_garrafa_pet),
-            getString(R.string.cofre_com_lata_de_nescau),
-            getString(R.string.vaso_de_flores_com_garrafa),
-        )
+            getString(R.string.titulo_a),
+            getString(R.string.titulo_b),
+            getString(R.string.titulo_c),
+            getString(R.string.titulo_d),
+            getString(R.string.titulo_e),
+            getString(R.string.titulo_f),
+
+            )
 
         ideias = arrayOf(
             getString(R.string.fonte_imagem_1),
             getString(R.string.fonte_imagem_2),
+            getString(R.string.fonte_imagem_3),
+            getString(R.string.fonte_imagem_3),
             getString(R.string.fonte_imagem_3),
         )
 
@@ -107,7 +128,9 @@ class IdeiasFragment : Fragment() {
             val ideias = Ideias(imageId[i],cabecalho[i])
             ideiasArrayList.add(ideias)
         }
-        
+
+
 
     }
 }
+

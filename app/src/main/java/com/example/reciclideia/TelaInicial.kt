@@ -37,7 +37,7 @@ class TelaInicial : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.item_meu_perfil -> {
-                startActivity(Intent(this, Configuracoes::class.java))
+                startActivity(Intent(this, MeuPerfil::class.java))
                 true
             }
 

@@ -17,13 +17,13 @@
         android:theme="@style/Theme.Reciclideia"
         tools:targetApi="31">
         <activity
+            android:name=".MeuPerfil"
+            android:exported="false" />
+        <activity
             android:name=".TelaDeCuriosidadePapel"
             android:exported="false" />
         <activity
             android:name=".ExcluirConta"
-            android:exported="false" />
-        <activity
-            android:name=".Configuracoes"
             android:exported="false" />
         <activity
             android:name=".TelaDeCuriosidadeVidro"

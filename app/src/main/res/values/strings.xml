@@ -24,10 +24,18 @@
     <string name="ideias"> Ideias </string>
     <string name="chat"> Chat </string>
     <string name="noticias"> Notícias </string>
-    <string name="tartaruga_de_garrafa_pet">Tartaruga de Garrafa Pet</string>
-    <string name="cofre_com_lata_de_nescau">Cofre com Lata de Nescau</string>
-    <string name="fonte_revista_artesanato">Fonte: Revista Artesanato</string>
-    <string name="fonte_painel_criativo">Fonte: Painel Criativo</string>
+
+    //titulos dos tutoriais
+    <string name="titulo_a">Tartaruga de Garrafa Pet</string>
+    <string name="titulo_b">Cofre com Lata de Nescau</string>
+    <string name="titulo_c">Cofre com Lata de Nescau</string>
+    <string name="titulo_d">Cofre com Lata de Nescau</string>
+    <string name="titulo_e">Cofre com Lata de Nescau</string>
+    <string name="titulo_f">Cofre com Lata de Nescau</string>
+
+
+
+
     <string name="image_view_da_lata_de_nescau">Image View da Lata de Nescau</string>
     <string name="pl_stico">Plástico</string>
     <string name="vaso_de_flores_com_garrafa">Vaso de Flores com Garrafa</string>
