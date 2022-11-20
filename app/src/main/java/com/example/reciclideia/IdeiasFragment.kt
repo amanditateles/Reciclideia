@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -85,10 +84,10 @@ class IdeiasFragment : Fragment() {
 
                 //Toast.makeText(context, "Você clicou no item no.$position",Toast.LENGTH_SHORT).show()
 
-                val intent = Intent(this,TelaDeTutorial::class.java)
+                val intent = Intent(activity,TelaDeTutorial::class.java)
                 intent.putExtra("cabecalho",ideiasArrayList[position].cabecalho)
                 intent.putExtra("imageId",ideiasArrayList[position].titleimage)
-                intent.putExtra("ideias",ideiasArrayList[position])
+                intent.putExtra("ideias",ideias[position])
 
                 startActivity(intent)
 
@@ -126,11 +125,12 @@ class IdeiasFragment : Fragment() {
         )
 
         ideias = arrayOf(
-            getString(R.string.fonte_imagem_1),
-            getString(R.string.fonte_imagem_2),
-            getString(R.string.fonte_imagem_3),
-            getString(R.string.fonte_imagem_3),
-            getString(R.string.fonte_imagem_3),
+            getString(R.string.tutorial_a),
+            getString(R.string.tutorial_b),
+            getString(R.string.tutorial_c),
+            getString(R.string.tutorial_d),
+            getString(R.string.tutorial_e),
+            getString(R.string.tutorial_f),
         )
 
         for (i in imageId.indices){

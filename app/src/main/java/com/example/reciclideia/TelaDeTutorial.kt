@@ -2,6 +2,7 @@ package com.example.reciclideia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 
 class TelaDeTutorial : AppCompatActivity() {
@@ -11,7 +12,7 @@ class TelaDeTutorial : AppCompatActivity() {
 
         val cabecalhoIdeias : TextView = findViewById(R.id.cabecalho)
         val mainTutoriais : TextView = findViewById(R.id.textViewTutorial)
-        val imagemIdeias : TextView = findViewById(R.id.imagemTutorial)
+        val imagemIdeias : ImageView = findViewById(R.id.imagemTutorial)
 
         val bundle : Bundle? = intent.extras
         val cabecalho = bundle!!.getString("cabecalho")
