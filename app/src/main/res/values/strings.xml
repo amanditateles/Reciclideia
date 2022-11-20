@@ -24,7 +24,7 @@
     <string name="ideias"> Ideias </string>
     <string name="chat"> Chat </string>
     <string name="noticias"> Notícias </string>
-    
+
     // titulos das ideias
     <string name="titulo_a">Tartaruga de Garrafa Pet</string>
     <string name="titulo_b">Cofre com Lata de Nescau</string>
@@ -33,13 +33,49 @@
     <string name="titulo_e">Porquinhos com Copos de Plástico</string>
     <string name="titulo_f">Xícaras com Pote de Iogurte</string>
 
+    //tutorias
+    <string name="tutorial_a">
 
-    
+        <big>Materiais\n</big>
+        <ul>
+            <li> Garrafas PET limpa;</li>
+            <li>E.V.A;</li>
+            <li>Lã ou Linha de Crochê;</li>
+            <li>Tesoura;</li>
+            <li>Caneta;</li>
+            <li>Agulha;</li>
+            <li>Cola quente;</li>
+            <li>Botão colorido;</li>
+        </ul>
+
+        <big>Passo a passo\n</big>
+
+        <ol>
+            <li>Passe o molde da tartaruga escolhido para o EVA e recorte o fundo da garrafa PET</li>
+            <li>Recorte o E.V.A no formato da tartaruga</li>
+            <li>Com o auxílio de linha grossa, ou fio, prenda o fundo da garrafa no corpo da tartaruga</li>
+            <li>Certifique-se de que está bem apertado nas áreas rasas</li>
+            <li>Costure o botão no meio do fundo da garrafa PET</li>
+            <li>Com uma caneta, desenha os olhos, a boca, a cauda, e o que desejar.</li>
+            <li>E está pronto!</li>
+        </ol>
+            </string>
+
+
+
+
+
+    <string name="tutorial_b">Vaso de Flores com Garrafa</string>
+    <string name="tutorial_c">Vaso de Flores com Garrafa</string>
+    <string name="tutorial_d">Vaso de Flores com Garrafa</string>
+    <string name="tutorial_e">Vaso de Flores com Garrafa</string>
+    <string name="tutorial_f">Vaso de Flores com Garrafa</string>
+
     <string name="fonte_revista_artesanato">Fonte: Revista Artesanato</string>
     <string name="fonte_painel_criativo">Fonte: Painel Criativo</string>
     <string name="image_view_da_lata_de_nescau">Image View da Lata de Nescau</string>
     <string name="pl_stico">Plástico</string>
-    
+
     <string name="vidro">Vidro</string>
     <string name="metal">Metal</string>
     <string name="image_view_de_vaso_de_flores">Image View de Vaso de Flores</string>
@@ -76,5 +112,6 @@
     <string name="excluir">Excluir</string>
     <string name="alerta">Tem certeza que deseja continuar? Não será possível reverter a ação.</string>
     <string name="despedida">Foi um prazer tê-lo aqui no nosso aplicativo. Até logo :)</string>
+
 
 </resources>

@@ -1,10 +1,12 @@
 package com.example.reciclideia
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -75,8 +77,23 @@ class IdeiasFragment : Fragment() {
         recyclerView = view.findViewById(R.id.recycler_view)
         recyclerView.layoutManager = layoutManager
         recyclerView.setHasFixedSize(true)
+
         adapter = MeuAdapter(ideiasArrayList)
         recyclerView.adapter = adapter
+        adapter.setOnItemClickListener(object : MeuAdapter.onItemClickListener{
+            override fun onItemClick(position: Int) {
+
+                //Toast.makeText(context, "Você clicou no item no.$position",Toast.LENGTH_SHORT).show()
+
+                val intent = Intent(this,TelaDeTutorial::class.java)
+                intent.putExtra("cabecalho",)
+
+
+
+            }
+
+
+        })
     }
 
     private fun dataInitialize(){
