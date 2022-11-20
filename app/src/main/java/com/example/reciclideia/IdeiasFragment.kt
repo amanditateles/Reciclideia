@@ -86,7 +86,11 @@ class IdeiasFragment : Fragment() {
                 //Toast.makeText(context, "Você clicou no item no.$position",Toast.LENGTH_SHORT).show()
 
                 val intent = Intent(this,TelaDeTutorial::class.java)
-                intent.putExtra("cabecalho",)
+                intent.putExtra("cabecalho",ideiasArrayList[position].cabecalho)
+                intent.putExtra("imageId",ideiasArrayList[position].titleimage)
+                intent.putExtra("ideias",ideiasArrayList[position])
+
+                startActivity(intent)
 
 
 
