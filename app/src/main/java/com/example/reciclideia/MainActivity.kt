@@ -7,14 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.reciclideia.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+
 
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private lateinit var mAuth : FirebaseAuth
+    private val mAuth = FirebaseAuth.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
 
-        mAuth = Firebase.auth
 
         binding.textViewOuCriarConta.setOnClickListener{
             val intent = Intent(this,Cadastro::class.java)
@@ -48,9 +46,12 @@ class MainActivity : AppCompatActivity() {
                         if (autenticacao.isSuccessful) {
                             navegarTelaPrincipal()
                         }
+                    }.addOnFailureListener{
+                        val snackbar = Snackbar.make(view, "Erro ao fazer o login do usuário!!", Snackbar.LENGTH_SHORT)
+                        snackbar.setBackgroundTint(Color.RED)
+                        snackbar.show()
                     }
                 }
-
                 }
             }
         }
@@ -63,7 +64,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        val usuarioAtual = Firebase.auth.currentUser
+        val usuarioAtual = FirebaseAuth.getInstance().currentUser
         if (usuarioAtual != null) {
             navegarTelaPrincipal()
         }

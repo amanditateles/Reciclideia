@@ -7,6 +7,7 @@ import android.text.TextUtils
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
@@ -15,7 +16,7 @@ class RedefinirSenha : AppCompatActivity() {
     private val tag = "RedefinirSenha"
     private var etEmail: EditText? = null
     private var buttonConcluir: Button? = null
-
+    private var imageButtonVoltarRedefinirSenha: ImageButton? = null
     private var mAuth: FirebaseAuth? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,10 +30,17 @@ class RedefinirSenha : AppCompatActivity() {
     private fun inicialise(){
         etEmail = findViewById(R.id.etEmail) as EditText
         buttonConcluir = findViewById(R.id.buttonConcluir) as Button
+        imageButtonVoltarRedefinirSenha = findViewById(R.id.imageButtonVoltarRedefinirSenha) as ImageButton
 
-        mAuth = FirebaseAuth.getInstance ()
+        mAuth = FirebaseAuth.getInstance()
 
-        buttonConcluir!!.setOnClickListener { sendPasswordEmail () }
+        imageButtonVoltarRedefinirSenha!!.setOnClickListener{
+            finish()
+        }
+
+        buttonConcluir!!.setOnClickListener {
+            sendPasswordEmail()
+        }
 
     }
 
@@ -41,8 +49,7 @@ class RedefinirSenha : AppCompatActivity() {
 
         if (!TextUtils.isEmpty(email)) {
             mAuth!!
-                .sendPasswordResetEmail(email)
-                .addOnCompleteListener { task ->
+                .sendPasswordResetEmail(email).addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         val message = "Email Enviado."
                         Log.d(tag, message)

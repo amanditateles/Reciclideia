@@ -8,6 +8,19 @@
     android:fadingEdge="horizontal|vertical|none"
     tools:context=".Cadastro">
 
+    <ImageButton
+        android:id="@+id/imageButtonVoltarCriarConta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundcorner2"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_botao_voltar"
+        android:contentDescription="@string/cone_para_voltar_para_tela_anterior" />
+
     <ImageView
         android:id="@+id/logoCriarCadastro"
         android:layout_width="214dp"

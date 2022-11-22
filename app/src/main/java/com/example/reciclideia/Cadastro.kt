@@ -24,6 +24,10 @@ class Cadastro : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
 
+        binding.imageButtonVoltarCriarConta.setOnClickListener{
+            finish()
+        }
+
 
         binding.btnCriarConta.setOnClickListener {view ->
 

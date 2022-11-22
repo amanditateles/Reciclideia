@@ -9,7 +9,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 
 
-
 class ExcluirConta : AppCompatActivity() {
 
     private lateinit var binding: ActivityExcluirContaBinding
@@ -39,7 +38,7 @@ class ExcluirConta : AppCompatActivity() {
                         startActivity(intent)
                         finish()
                     } else {
-                        Toast.makeText (this, "Ocorreu um erro ok", Toast.LENGTH_SHORT).show()
+                        Toast.makeText (this, "Ocorreu um erro", Toast.LENGTH_SHORT).show()
                     }
             }
         }

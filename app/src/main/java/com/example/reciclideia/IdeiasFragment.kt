@@ -82,20 +82,13 @@ class IdeiasFragment : Fragment() {
         adapter.setOnItemClickListener(object : MeuAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
 
-                //Toast.makeText(context, "Você clicou no item no.$position",Toast.LENGTH_SHORT).show()
-
                 val intent = Intent(activity,TelaDeTutorial::class.java)
                 intent.putExtra("cabecalho",ideiasArrayList[position].cabecalho)
                 intent.putExtra("imageId",ideiasArrayList[position].titleimage)
                 intent.putExtra("ideias",ideias[position])
 
                 startActivity(intent)
-
-
-
             }
-
-
         })
     }
 
@@ -106,7 +99,7 @@ class IdeiasFragment : Fragment() {
 
         imageId = arrayOf(
             R.drawable.tartaruga_pet_1,
-            R.drawable.cofrinho_de_lata_de_nescau_2,
+            R.drawable.cabideiro_vassouras,
             R.drawable.vaso_de_flores_utilizando_garrafa_de_vidro_2,
             R.drawable.cofrinho_latadeleite,
             R.drawable.porcos_copos,

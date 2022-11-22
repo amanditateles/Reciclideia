@@ -6,53 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".TelaDeTutorial">
 
-    <TextView
-        android:id="@+id/cabecalho"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/imagemTutorial"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="64dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/tartaruga_pet_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cabecalho"
-        app:shapeAppearanceOverlay="@style/RoundCorner" />
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imagemTutorial">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textViewTutorial"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
-            android:fontFamily="@font/poppins_light"
-            android:text="@string/tutorial_a"
-            android:textSize="16sp"
-            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_image" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:scrollbars="vertical">
 
-    </ScrollView>
+            <TextView
+                android:id="@+id/cabecalho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#32D956"
+                android:textSize="20sp"
+                android:text="TextView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imagemTutorial"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="64dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tartaruga_pet_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cabecalho"
+                app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+
+            <TextView
+                android:id="@+id/textViewTutorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="76dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/tutorial_a"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout></ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

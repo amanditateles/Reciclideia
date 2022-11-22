@@ -27,49 +27,134 @@
 
     // titulos das ideias
     <string name="titulo_a">Tartaruga de Garrafa Pet</string>
-    <string name="titulo_b">Cofre com Lata de Nescau</string>
+    <string name="titulo_b">Cabideiro utilizando cabos de vassoura</string>
     <string name="titulo_c">Vaso de Flores com Garrafa</string>
     <string name="titulo_d">Cofrinho com Lata de Leite</string>
     <string name="titulo_e">Porquinhos com Copos de Plástico</string>
     <string name="titulo_f">Xícaras com Pote de Iogurte</string>
 
-    //tutorias
+    //tutoriais
     <string name="tutorial_a">
 
-        <big>Materiais\n</big>
-        <ul>
-            <li> Garrafas PET limpa;</li>
-            <li>E.V.A;</li>
-            <li>Lã ou Linha de Crochê;</li>
-            <li>Tesoura;</li>
-            <li>Caneta;</li>
-            <li>Agulha;</li>
-            <li>Cola quente;</li>
-            <li>Botão colorido;</li>
-        </ul>
+       Materiais\n\n
+        - Garrafas PET limpa;\n
+        - E.V.A;\n
+        - Lã ou Linha de Crochê;\n
+        - Tesoura;\n
+        - Caneta;\n
+        - Agulha;\n
+        - Cola quente;\n
+        - Botão colorido;\n\n
 
-        <big>Passo a passo\n</big>
+       Passo a passo\n\n
+           1.Passe o molde da tartaruga escolhido para o EVA e recorte o fundo da garrafa PET\n
+           2.Recorte o E.V.A no formato da tartaruga\n
+           3.Com o auxílio de linha grossa, ou fio, prenda o fundo da garrafa no corpo da tartaruga\n
+           4.Certifique-se de que está bem apertado nas áreas rasas\n
+           5.Costure o botão no meio do fundo da garrafa PET\n
+           6.Com uma caneta, desenha os olhos, a boca, a cauda, e o que desejar.\n
+           7.E está pronto!
 
-        <ol>
-            <li>Passe o molde da tartaruga escolhido para o EVA e recorte o fundo da garrafa PET</li>
-            <li>Recorte o E.V.A no formato da tartaruga</li>
-            <li>Com o auxílio de linha grossa, ou fio, prenda o fundo da garrafa no corpo da tartaruga</li>
-            <li>Certifique-se de que está bem apertado nas áreas rasas</li>
-            <li>Costure o botão no meio do fundo da garrafa PET</li>
-            <li>Com uma caneta, desenha os olhos, a boca, a cauda, e o que desejar.</li>
-            <li>E está pronto!</li>
-        </ol>
-            </string>
+           </string>
+
+    <string name="tutorial_b">
+Materiais\n\n
+
+-Tesoura;\n
+-4 cabos de vasssoura;\n
+-Cordão de couro;\n
+-Tinta (opcional);\n\n
+
+Passo a passo\n\n
+
+1.* Pinte os cabos se desejar *\n
+2.Cruze os cabos e faça com que cada pé fique em cada ponta, de forma que tenha equilíbrio\n
+3.Quando conseguir equilibrar os cabos, amarre o meio dos cabos com o cordão de couro, amarre de forma firme\n
+4.Esconda as pontas da amarração\n
+5.Faça estes dois passos com auxílio da cola quente\n
+6.Ajuste os ângulos e deixe bem alinhado no chão\n
+7.E está pronto!\n
+
+   </string>
+
+    <string name="tutorial_c">
+   Materiais\n\n
+
+-Garrafas de vidro sem rótulo;\n
+-Flores;\n
+-Tecido/Feltro;\n
+-Cola quente;\n
+-Botões;\n\n
+
+Passo a passo\n\n
+
+1.Corte uma faixa do tecido e cole com a cola quente no centro da garrafa\n
+2.Cole os botões um a um com a cola quente\n
+3.Ponha suas flores dentro\n
+4.E está pronto!
+
+   </string>
+
+    <string name="tutorial_d">
+   Materiais\n\n
+
+-1 lata de leite;\n
+-Retalhos de papéis coloridos que você goste;\n
+-Faca (Cuidado, se preciso peça ajuda de um adulto);\n
+-Tesoura;\n
+-Pistola de cola quente;\n
+-Enfeites de sua preferência;\n\n
+
+Passo a passo\n\n
+
+1.Passe cola quente por toda a lata e encape com os retalhos de papel\n
+2.Faça um bom acabamento com os papéis e se tiver, cole enfeites que desejar\n
+3.Com auxílio de uma faca, faça um furo no centro no centro da tampa, onde possa despejar as moedas\n
+4.Cole um círculo de cartolina na tampa.\n
+5.E está pronto!\n
+
+   </string>
+
+    <string name="tutorial_e">
+       Materiais\n\n
+
+-2 copos de plástico;\n
+-E.V.A rosa e preto (cor fica a critério);\n
+-Pincéis;\n
+-Cola quente;\n\n
+
+Passo a passo\n\n
+
+1.Recorte o E.V.A no formato das orelhas e das patas do porquinho\n
+2.Cole os dois copos com a cola quente\n
+3.Cole as patas e as orelhas\n
+4.Desenhe os olhos, o nariz e a boca\n
+5.E está pronto!\n
+
+   </string>
+    <string name="tutorial_f">
+       Materiais
+
+-Copinhos de iogurte limpos;\n
+-1 caixa de leite;\n
+-Cola quente;\n
+-E.V.A;\n
+-Papelão;\n
+-Tesoura;\n
+-Enfeites de sua preferência;\n\n
+
+Passo a passo\n\n
+
+1.Recorte as bordas pontiagudas dos potes de iogurte\n
+2.Recorte pedaços de E.V.A para por nos potes, ponha na parte superior perto da borda\n
+3.Grude pedações de E.V.A para fazer a alça da xícara, no formato de um C, e grude na lateral do copinho\n
+4.Faça estes dois passos com auxílio da cola quente\n
+5.Enfeite como desejar\n
+6.Para enfeitar a caixa de leite, cole o E.V.A por toda a caixa e ponha os enfeites que desejar\n
+7.E está pronto!\n
 
 
-
-
-
-    <string name="tutorial_b">Vaso de Flores com Garrafa</string>
-    <string name="tutorial_c">Vaso de Flores com Garrafa</string>
-    <string name="tutorial_d">Vaso de Flores com Garrafa</string>
-    <string name="tutorial_e">Vaso de Flores com Garrafa</string>
-    <string name="tutorial_f">Vaso de Flores com Garrafa</string>
+   </string>
 
     <string name="fonte_revista_artesanato">Fonte: Revista Artesanato</string>
     <string name="fonte_painel_criativo">Fonte: Painel Criativo</string>
@@ -84,7 +169,8 @@
     <string name="image_button_de_not_cias">Image Button de Notícias</string>
     <string name="image_button_de_chat">Image Button de Chat</string>
     <string name="ou_criar_conta">Ou, criar conta</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="confira_aqui">Confira aqui o que é reciclável com:</string>
     <string name="image_button_de_configura_o">Image Button de Configuração</string>
@@ -115,3 +201,4 @@
 
 
 </resources>
+
